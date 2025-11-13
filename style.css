@@ -1,4 +1,4 @@
-/* Page background & font */
+
 body {
   background: #d3d3d3;
   font-family: "Helvetica Neue", Arial, sans-serif;
@@ -6,7 +6,7 @@ body {
   padding: 20px 0;
 }
 
-/* Form container (centered) */
+
 form {
   width: 650px;
   margin: 20px auto;
@@ -16,7 +16,7 @@ form {
   box-sizing: border-box;
 }
 
-/* Title */
+
 h2 {
   text-align: center;
   margin: 6px 0 18px;
@@ -24,7 +24,7 @@ h2 {
   text-decoration: underline;
 }
 
-/* Table layout */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -36,14 +36,14 @@ td {
   vertical-align: top;
 }
 
-/* Left label column narrower */
+
 .label {
   width: 160px;
   font-weight: 600;
   background: #fafafa;
 }
 
-/* Standard inputs (full width except dob inputs) */
+
 input[type="text"],
 select {
   width: 96%;
@@ -52,7 +52,7 @@ select {
   border: 1px solid #999;
 }
 
-/* DOB inputs: small inline boxes */
+
 .dob {
   width: 70px;
   padding: 6px;
@@ -60,14 +60,14 @@ select {
   display: inline-block;
 }
 
-/* small separator between dob fields */
+
 .dob-row { display: flex; align-items: center; gap: 6px; }
 .sep { margin: 0 2px; }
 
-/* hint under dob */
+
 .hint { font-size: 12px; color: #666; margin-top: 4px; }
 
-/* field-specific error messages */
+
 .field-error {
   color: #c00;
   font-size: 13px;
@@ -75,7 +75,7 @@ select {
   min-height: 18px;
 }
 
-/* buttons */
+
 .buttons {
   text-align: center;
   margin-top: 12px;
