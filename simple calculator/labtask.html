@@ -65,7 +65,7 @@
 
         <!-- Operator row -->
         <button onclick="addOperation()">+</button>
-        
+        <button onclick="subtractOperation()">-</button>
 
         <!-- Row 1 -->
         <button onclick="pressNumber('1')">1</button>
@@ -102,6 +102,10 @@
         document.getElementById("display").value += "+";
     }
 
+    
+    function subtractOperation() {
+        document.getElementById("display").value += "-";
+    }
    
 
    
